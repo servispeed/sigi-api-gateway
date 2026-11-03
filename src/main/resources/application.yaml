@@ -23,37 +23,37 @@ zuul:
 
     notificaciones-service:
       path: /api/notificaciones/**
-      url: http://host.docker.internal:8082 
+      url: http://host.docker.internal:8084 
       strip-prefix: false
       
     ordenes-service:
       path: /api/ordenes/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     finanzas-service:
       path: /api/dashboard/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     compras-service:
       path: /api/compras/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     operaciones-service:
       path: /api/operaciones/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     productos-service:
       path: /api/productos/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     imagenes-service:
       path: /uploads/**
-      url: http://host.docker.internal:8082
+      url: http://host.docker.internal:8084
       strip-prefix: false
 
     personas-service:
