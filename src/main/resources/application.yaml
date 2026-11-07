@@ -25,6 +25,11 @@ zuul:
       path: /api/notificaciones/**
       url: http://host.docker.internal:8084 
       strip-prefix: false
+
+    sobrantes-service:
+      path: /api/sobrantes/**
+      url: http://host.docker.internal:8084
+      strip-prefix: false
       
     ordenes-service:
       path: /api/ordenes/**
